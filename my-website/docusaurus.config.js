@@ -22,9 +22,33 @@ module.exports = {
       items: [
         {
           type: 'doc',
+          docId: 'refactoring/intro',
+          position: 'left',
+          label: '그라운드룰',
+        },
+        {
+          type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '책요약',
+        },
+        {
+          type: 'doc',
+          docId: 'refactoring/intro',
+          position: 'left',
+          label: 'TDD',
+        },
+        {
+          type: 'doc',
+          docId: 'refactoring/intro',
+          position: 'left',
+          label: '리팩터링',
+        },
+        {
+          type: 'doc',
+          docId: 'refactoring/intro',
+          position: 'left',
+          label: '자동화',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
