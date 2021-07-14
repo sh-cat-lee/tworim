@@ -21,32 +21,50 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'refactoring/intro',
+          label: 'Book',
           position: 'left',
-          label: '그라운드룰',
+          items: [
+            {
+              
+              to: 'book/clean-code/intro',
+              position: 'left',
+              label: 'Clean Code',
+            },
+            {
+              
+              to: 'book/clean-code/intro',
+              position: 'left',
+              label: 'Clean Coder',
+            },
+            {
+              
+              to: 'book/refactoring/intro',
+              position: 'left',
+              label: '리팩터링',
+            },
+            {
+              
+              to: 'book/refactoring/intro',
+              position: 'left',
+              label: '리액트를 다루는 기술',
+            },
+          ]
         },
         {
           type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: '책요약',
-        },
-        {
-          type: 'doc',
-          docId: 'refactoring/intro',
+          docId: 'book/refactoring/intro',
           position: 'left',
           label: 'TDD',
         },
         {
           type: 'doc',
-          docId: 'refactoring/intro',
+          docId: 'book/refactoring/intro',
           position: 'left',
-          label: '리팩터링',
+          label: '그라운드룰',
         },
         {
           type: 'doc',
-          docId: 'refactoring/intro',
+          docId: 'book/refactoring/intro',
           position: 'left',
           label: '자동화',
         },
@@ -114,6 +132,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "/",
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
